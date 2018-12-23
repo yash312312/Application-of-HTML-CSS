@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<style type="text/css">
+
+body{
+		
+		animation: back 60s infinite;
+		animation-fill-made: forwards;
+		animation-timing-function: linear; 
+		margin: 0; width: 100%; overflow: hidden;
+	}
+	@keyframes back{
+			0%{background-color:rgb(15,2,68);}
+			8%{background-color:rgb(53,10,88);}
+			32%{background-color:rgb(22,160,157);}
+			24%{background-color:rgb(255,255,125);}
+			16%{background-color:rgb(255,255,60);}
+			40%{background-color:rgb(179,232,247);}
+			48%{background-color:rgb(164,238,236);}
+			56%{background-color:rgb(255,64,64);}
+			64%{background-color:rgb(138,21,176);}
+			72%{background-color:rgb(98,15,125);}
+			80%{background-color:rgb(51,7,65);}
+			88%{background-color:rgb(0,0,125);}
+			100%{background-color:rgb(15,2,68);}
+		}
+.tri{
+		width:0;
+		height:0;
+		border-left:20px solid black;
+		border-top:50px solid transparent;  
+		border-bottom:20px solid transparent;
+		position: absolute;
+		top: -150px;
+}
+	input[type=text] {                     
+    width: 20px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top:-37px;
+    border-radius: 50%;
+   background-repeat: no-repeat;
+    transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+input[type=text]:focus{
+		background-color: white;
+		color: black;
+		width:100%;
+		border-radius: 0%;
+	}
+	.trapezium{
+		display: inline-block;
+		border: 50px black solid;
+		width: 150px;
+		border-left: 50px transparent solid ;
+		border-right: 50px transparent solid ; 
+		border-bottom:0;
+		position:absolute;
+		bottom: 20.5%;
+		left: 45%;
+		animation-name: asis1;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-fill-mode:forwards;
+		animation-timing-function: linear;
+		transition: all linear 2s;
+}
+
+
+	.rect1{
+		width: 3px;
+		height: 100px; 
+		background-color:black;
+		position: absolute;
+		top: -100px;
+}
+
+@keyframes asis1{
+	0%{ transform:rotate(4deg);}
+	50%{transform:rotate(-5deg);}
+	100%{transform:rotate(4deg);}
+	
+}
+
+	.rect{
+		display: inline-block;
+		border:75px blue solid;
+		position: absolute;
+		bottom:0%;
+		left:-10px;
+		width: 2000px;
+	}
+	.oval{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:fixed;
+		bottom:17.5%;
+		left:-1000px;
+		animation-name: ov1;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;
+		animation-timing-function: linear;
+	}
+	@keyframes ov1{
+		0%{
+			left: -800px;
+
+		}
+		100%{
+			left: -320px;
+		}
+	}
+	.oval1{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:17.5%;
+		left:-40px;
+		animation-name: ov2;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: forwards;
+		animation-timing-function: linear;
+	}
+	@keyframes ov2{
+		0%{
+			left: -800px;
+		}
+		100%{
+			left: -320px;
+		}
+	}
+	.oval2{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:140px;
+	}
+	.oval3{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:220px;
+	}
+	.oval4{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:300px;
+	}
+	.oval5{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:380px;
+	}
+	.oval6{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:460px;
+	}
+	.oval7{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:540px;
+	}
+	.oval8{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:620px;
+	}
+	.oval9{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:700px;
+	}
+	.oval10{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left: 780px;
+	}
+	.oval11{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:860px;
+	}
+	.oval12{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:940px;
+	}
+	.oval13{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1020px;
+	}
+	.oval14{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1100px;
+	}
+	.oval15{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1180px;
+	}
+	.oval16{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1260px;
+	}
+	.oval17{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1340px;
+	}
+	.oval18{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1420px;
+	}
+	.oval19{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1500px;
+	}
+	.oval20{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1580px;
+	}
+	.oval21{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1660px;
+	}
+	.oval22{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1740px;
+	}
+	.oval23{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1820px;
+	}
+	.oval24{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1900px;
+	}
+	.oval25{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:1980px;
+	}
+	.oval26{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:2060px;
+	}
+	.oval27{
+		border:20px rgb(2,2,138) solid;
+		width: 40px;
+		height: 0px;
+		background-color: rgb(2,2,138);
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:2140px;
+	}
+	.oval28{
+		border:20px blue solid;
+		width: 40px;
+		height: 0px;
+		background-color: blue;
+		border-radius: 50%;
+		position:absolute;
+		bottom:-20px;
+		left:2220px;
+	}
+	.cir{
+		width:0;
+		border:50px solid black;
+		border-radius:50%;
+		position: fixed;
+		top:9%;
+		left:20%;
+		animation-name: sun;
+		animation-duration: 63s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes sun{
+		0%{
+			border-color: rgb(229,229,229);
+		}
+		20%{
+			border-color: rgb(254,129,46);
+		}
+		50%{
+			border-color: rgb(255,255,0)
+		}
+		60%{
+			border-color: rgb(254,129,46);
+		}
+		100%{
+			border-color: rgb(229,229,229)
+		}
+	}
+
+	#ob1{
+		border:30px transparent solid;
+		width:70px;
+		border-radius:50%;
+		position: absolute;
+		top:-50px;
+		left:750px;
+	}
+	#ob2{
+		border:30px rgb(199,199,199) solid;
+		width:70px;
+		border-radius:50%;
+		position: absolute;
+		top:120px;
+		left:110px;
+	}
+	#cir1{
+		border:30px rgb(199,199,199) solid;
+		width:0px;
+		border-radius:50%;
+		position: absolute;
+		top:130px;
+		left:105px;
+	}
+	#cir2{
+		border:30px rgb(199,199,199) solid;
+		width:0px;
+		border-radius:50%;
+		position: absolute;
+		top:90px;
+		left:100px;
+	}
+	#cir3{
+		border:30px rgb(199,199,199) solid;
+		width:0px;
+		border-radius:50%;
+		position: absolute;
+		top:100px;
+		left:150px;
+	}
+	#cir4{
+		border:30px rgb(199,199,199) solid;
+		width:0px;
+		border-radius:50%;
+		position: absolute;
+		top:120px;
+		left:65px;
+	}
+	.names{
+		font-size:15px;
+		color:white;
+		position: fixed;
+		left:880px;
+		top:100px;
+	}
+</style>
+<body>
+
+<div id="ob1" onclick="shift()">
+<div id= "ob2"></div>
+<div id="cir1"></div>
+<div id="cir2"></div>
+<div id="cir3"></div>
+<div id="cir4"></div>
+</div>
+<div class="rect"></div>
+<div class="oval1">
+	<div class="oval3"></div>
+	<div class="oval5"></div>
+	<div class="oval7"></div>
+	<div class="oval9"></div>
+	<div class="oval11"></div>
+	<div class="oval13"></div>
+	<div class="oval15"></div>
+	<div class="oval17"></div>
+	<div class="oval19"></div>
+	<div class="oval21"></div>
+	<div class="oval23"></div>
+	<div class="oval25"></div>
+	<div class="oval27"></div>
+	</div>
+<div class ="trapezium">
+<form method="get" action="https://www.google.com/search">
+<input type="text" name="q" size="31" value="">
+</form>
+	<div class="rect1">
+		
+		</div>
+		<div class ="tri">
+		</div>
+	</div>
+<div class="oval">
+	<div class="oval2"></div>
+	<div class="oval4"></div>
+	<div class="oval6"></div>
+	<div class="oval8"></div>
+	<div class="oval10"></div>
+	<div class="oval12"></div>
+	<div class="oval14"></div>
+	<div class="oval16"></div>
+	<div class="oval18"></div>
+	<div class="oval20"></div>
+	<div class="oval22"></div>
+	<div class="oval24"></div>
+	<div class="oval26"></div>
+	<div class="oval28"></div>
+	</div>
+
+<div class="cir"></div>
+<div class="names">
+	<b>
+		Click on window <br>of boat to search
+</div>
+</body>
+	<script type="text/javascript">
+		document.documentElement.scrollLleft="left";
+		 
+		 var ones=document.getElementByClassName('ob1');
+		 document.addEventListener('click',respond);
+		 /*document.addEventListener('click',respond);*/
+		 	/*function respond(e)
+		 	{
+		 		if (e.keyCode==37)
+		 			{left();}
+		 		else if (e.keyCode==39)
+		 			{right();}
+		 	}
+		 	function left(){
+		 		ones[0].style.left="10px";
+		 	}
+		 	function right(){
+		 		ones[0].style.left="1000px";
+		 	}
+		 /*function respond()
+		 {
+		 	i[0].style.backgroundColor = "solid white";
+		 }*/
+		function shift() {
+ 		   var o=document.getElementById("ob1");
+ 		   //for (var i =0 ; i <5; i++) {
+ 		   	o.style.color: "red"
+ 		   	}	
+	</script>
+</html>
